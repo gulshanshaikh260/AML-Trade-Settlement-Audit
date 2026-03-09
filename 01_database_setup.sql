@@ -1,0 +1,2 @@
+create table trades( trade_id int primary key, account_id int, stock_symbol varchar(50), Order_type varchar(50), quantity int, price Decimal(10,2), trade_date date, settlement_date date);
+INSERT INTO trades (trade_id, account_id, stock_symbol, Order_type, quantity, price, trade_date, settlement_date) VALUES (101, 5001, 'RELIANCE', 'BUY', 500, 2800.50, '2023-10-01', '2023-10-02'), (102, 5001, 'HDFCBANK', 'SELL', 1000, 1500.00, '2023-10-01', '2023-10-05'), (103, 5002, 'TCS', 'BUY', 10000, 3500.00, '2023-10-02', '2023-10-03');
